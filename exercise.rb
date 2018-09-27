@@ -19,6 +19,6 @@ available_cards = ['queen of spades', '2 of clubs', '3 of diamonds', 'jack of sp
 
 new_hand = select_cards(available_cards)
 
-display_hand = new_hand[0..2].join("\n")
+display_hand = new_hand.join("\n")
 
 puts "Your new hand is: \n#{display_hand}"
